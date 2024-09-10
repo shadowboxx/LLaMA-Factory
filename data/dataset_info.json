@@ -571,5 +571,18 @@
       "prompt": "content"
     },
     "folder": "python"
-  }
+  },
+  "qwen_train_data": {
+    "file_name": "/home/huyunliu/GitHub/Qwen2-VL/train/train1.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+}
 }
