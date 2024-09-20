@@ -624,14 +624,14 @@
     "folder": "python"
   },
   "qwen_train_data": {
-    "file_name": "/home/huyunliu/GitHub/Qwen2-VL/train/train1.jsonl",
+    "file_name": "/home/huyunliu/GitHub/Qwen2/train/train.jsonl",
     "formatting": "sharegpt",
     "columns": {
-      "messages": "conversations"
+      "messages": "messages"
     },
     "tags": {
-      "role_tag": "from",
-      "content_tag": "value",
+      "role_tag": "role",
+      "content_tag": "content",
       "user_tag": "user",
       "assistant_tag": "assistant"
     }
